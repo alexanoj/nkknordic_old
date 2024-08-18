@@ -1,0 +1,13 @@
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: left;
+    margin: 20px auto;
+    height: 100%; /* Use the full viewport height */
+    color: #000000; /* White text color */
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 70%;
+}

@@ -1,0 +1,38 @@
+/* Contact.css */
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 2px solid black;
+  text-align: center;
+  margin: 20px auto;
+  height: 100%; /* Use the full viewport height */
+  color: #000000; /* White text color */
+  padding: 10px;
+  margin: 0 auto;
+  max-width: 50%;
+  }
+  
+  .contact-container h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .email-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .email-list li {
+    margin: 10px 0;
+  }
+  
+  .email-list a {
+    color: #0f0f0f;
+    text-decoration: none;
+  }
+  
+  .email-list a:hover {
+    text-decoration: underline;
+  }
+  

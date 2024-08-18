@@ -1,0 +1,25 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+  text-align: center;
+  color: white; /* White text color */
+  max-width: 100%;
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Optional: Adds some padding inside the container */
+}
+
+  
+.text-box {
+  position: absolute;
+  left: 50%;
+  margin-top: 50vh;
+  transform: translate(-50%, -50%);
+
+  background-color: rgba(33, 33, 33, 0.95); /* Semi-transparent dark gray */
+  color: white; /* White text color */
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  font-size: 3rem;
+}

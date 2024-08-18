@@ -1,0 +1,42 @@
+.members-container {
+  display: flex;
+  flex-wrap: wrap; /* Allows columns to wrap if necessary */
+  justify-content: space-around; /* Adjusts the space between the columns */
+  padding: 20px; /* Optional padding for better spacing */
+
+}
+
+.column {
+  flex: 1; /* Ensures that each column takes up equal space */
+  min-width: 300px; /* Adjusts the minimum width of each column to prevent them from becoming too narrow */
+  padding: 0 20px; /* Optional padding for better spacing */
+}
+
+.column h3 {
+  text-align: center; /* Center align the section headings */
+}
+
+ul {
+  list-style: disc; /* Use disc bullets */
+  padding-left: 20px; /* Add space for bullets */
+  text-align: center; /* Center text in list items */
+}
+
+li {
+  display: block ; /* Ensure each list item behaves like an inline-block */
+  text-align: center; /* Center the text in list items */
+  margin-bottom: 10px; /* Optional: Adds space between list items */
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(33, 33, 33, 0.95); /* Semi-transparent dark gray */
+  text-align: center;
+  margin-top: 100vh;
+  color: white; /* White text color */
+  max-width: 100%;
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Optional: Adds some padding inside the container */
+}
+

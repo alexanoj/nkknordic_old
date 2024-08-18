@@ -1,0 +1,35 @@
+/* Contact.css */
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(33, 33, 33, 0.95); /* Semi-transparent dark gray */
+  text-align: center;
+  color: white; /* White text color */
+  max-width: 100%;
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Optional: Adds some padding inside the container */
+}
+  
+  .contact-container h2 {
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .email-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .email-list li {
+    margin: 10px 0;
+  }
+  
+  .email-list a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .email-list a:hover {
+    text-decoration: underline;
+  }
+  
