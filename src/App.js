@@ -2,11 +2,9 @@ import React, {useRef} from 'react';
 import './App.css'; // Import the general stylesheet
 import Header from './Header'; // Import the Header component
 import Home from './Home'
-import Footer from './components/footer'; // Import the Footer component
 import Contact from './contact';
 import About from './components/About'; // Import the About component
-import Program from './components/program'; // Import the Program component
-import Sponsors from './components/sponsors'; // Import the Sponsors component
+
 
 
 function App() {
